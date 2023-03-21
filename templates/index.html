@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+    <div class="p-4 card">
+        <a href="{{ url_for('upload') }}" class="btn btn-success">Upload</a> <br>
+        <a href="{{ url_for('download') }}" class="btn btn-info">Download</a> <br>
+        <a href="{{ url_for('delete') }}" class="btn btn-danger">Delete</a> <br>
+        <a href="{{ url_for('rotate') }}" class="btn btn-warning">Rotate</a> <br>
+        <a href="{{ url_for('compress') }}" class="btn btn-warning">Compress</a>
+    </div>
+</div>
+
+{% endblock %}

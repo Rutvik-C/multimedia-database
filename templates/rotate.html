@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+        <div class="col">
+            <div class="card">
+                <h5 class="m-2 card-title">Rotate Image</h5>
+
+                <div class="card-body">
+                    <form action="/rotate" method="post">
+                        <div class="form-group">
+                            <label>Image Name</label>
+                            <input class="form-control" type="text" name="image_name" placeholder="Image Name" required>
+                        </div>
+                            <a href="/" class="btn btn-secondary">Back</a>
+                            <button class="btn btn-warning" type="submit">
+                                Rotate
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+</div>
+
+{% endblock %}
