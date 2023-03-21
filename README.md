@@ -1,2 +1,2 @@
-# multimedia-database
+# Multimedia Database
 Performing CRUD operation on multimedia data
